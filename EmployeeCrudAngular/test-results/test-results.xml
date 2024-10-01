@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 129.0.0.0 (Mac OS 10.15.7)" package="" timestamp="2024-09-25T04:01:06" id="0" hostname="Maximos-MacBook-Pro.local" tests="12" errors="0" failures="0" time="0.062">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/129.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should render title" time="0.023" classname="AppComponent"/>
+  <testcase name="EmployeeComponent should create" time="0.016" classname="EmployeeComponent"/>
+  <testcase name="AddemployeeComponent should call updateEmployee service method if employee is being edited" time="0.009" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should create" time="0.002" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should not allow creating an employee if the name exceeds 100 characters" time="0.002" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should not allow creating an employee if the name is too short" time="0.001" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should not allow creating an employee if the name contains numbers" time="0.002" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should not allow editing an employee if the name is duplicated" time="0.002" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should not allow creating an employee if the name is duplicated" time="0.001" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should call createEmployee service method if validation passes" time="0.002" classname="AddemployeeComponent"/>
+  <testcase name="AddemployeeComponent should format the employee name correctly" time="0.001" classname="AddemployeeComponent"/>
+  <testcase name="EmployeeService should retrieve all employees" time="0.001" classname="EmployeeService"/>
+  <system-out>
+    <![CDATA[Chrome Headless 129.0.0.0 (Mac OS 10.15.7) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,Chrome Headless 129.0.0.0 (Mac OS 10.15.7) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
